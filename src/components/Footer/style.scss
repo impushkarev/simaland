@@ -1,0 +1,23 @@
+//IMPORTS
+@import 'const.scss';
+
+.footer {
+  color: #ffffff;
+  padding: 15px 0;
+  background-color: $primary;
+
+  .footer__title {
+    margin-bottom: 15px;
+    font-size: 1.3em;
+  }
+  .map {
+    
+    .map__list {
+      list-style: none;
+    }
+    .map__link {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+}
